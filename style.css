@@ -52,6 +52,7 @@ body {
     display: flex;
     align-items: center;
     margin-top: 15px;
+    position: relative;
 }
 
 .todo-input {
@@ -64,8 +65,11 @@ border: 1px solid #C4C4C4;
 border-radius: 10px;
 margin-left: 1px;
 padding-left: 10px;
-
+flex-grow: 1; 
+padding-right: 60px; 
 }
+
+
 
 .clear-button {
     background: none;
@@ -73,7 +77,10 @@ padding-left: 10px;
     font-size: 18px;
     color: #ccc;
     cursor: pointer;
-    margin-left: -55px;
+    margin-left: -35px;
+    position: absolute; 
+    right: 28px; 
+    margin-top: -35px;
 }
 
 .add-button {
@@ -150,12 +157,17 @@ padding-top: 3px;
     color:#C4C4C4 ;
     font-size: 18px;
      display: block;
-     margin-right: 14px;
+     margin-right: 12px;
      padding-left: 4px;
-     padding-top: -4px;
+     padding-bottom: 4px;
+
  
  }
  .delete-buttons:hover {
     background-color:#9953F1;
     color: #fff;
 }
+
+
+
+
