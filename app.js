@@ -47,7 +47,11 @@ function renderTasks() {
     document.getElementById("todo-list").style.border =
     tasks.length ? "1px solid #C4C4C4" : "none";
     
-
+    if(tasks.length===0){
+        let addText=document.querySelector(".todo-input-container")
+        addText.style.display="block"
+        
+    }
 }
 
 function deleteTask(taskId) {
