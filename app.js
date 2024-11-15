@@ -31,8 +31,8 @@ function renderTasks() {
 
         listItem.textContent = `${index + 1}. ${task.text}`; 
 
-        const deleteButton = document.createElement("button");
-        deleteButton.className = "delete-button";
+        const deleteButton = document.createElement("span");
+        deleteButton.className = "delete-buttons";
         deleteButton.innerHTML = "✕";
         deleteButton.onclick = function () {
             deleteTask(task.id); 

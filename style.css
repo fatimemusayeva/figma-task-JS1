@@ -45,7 +45,7 @@ body {
     margin-top:10px;
 }
 .icon-1{
-    margin-left: 260px;
+    margin-left: 265px;
 }
 
 .todo-input-container {
@@ -63,7 +63,7 @@ height: 45px;
 border: 1px solid #C4C4C4;
 border-radius: 10px;
 margin-left: 1px;
-padding: 5px;
+padding-left: 10px;
 
 }
 
@@ -73,7 +73,7 @@ padding: 5px;
     font-size: 18px;
     color: #ccc;
     cursor: pointer;
-    margin-left: -50px;
+    margin-left: -55px;
 }
 
 .add-button {
@@ -132,11 +132,30 @@ padding-top: 3px;
    background-color: white;
    color:#C4C4C4 ;
    font-size: 18px;
-display: block;
+    display: block;
 }
 .delete-button:hover {
     background-color:#9953F1;
     color: #fff;
 }
 
-
+.delete-buttons {
+    color: #ccc;
+    cursor: pointer;
+    border-radius: 100%;
+    min-width: 25px;
+    max-height:25px;
+    border:1px solid #C4C4C4;
+    background-color: white;
+    color:#C4C4C4 ;
+    font-size: 18px;
+     display: block;
+     margin-right: 14px;
+     padding-left: 4px;
+     padding-top: -4px;
+ 
+ }
+ .delete-buttons:hover {
+    background-color:#9953F1;
+    color: #fff;
+}
